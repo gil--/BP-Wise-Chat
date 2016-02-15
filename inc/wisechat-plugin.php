@@ -41,10 +41,8 @@ class BP_WiseChat_Group_Extension extends BP_Group_Extension {
             if (function_exists('wise_chat')) {
                 wise_chat('bp-chat-' . $group_id); 
             }
-        
-            echo 'Group Chat: ' . $group_id;
         } else {
-            echo 'this plugin is disabled';
+            _e('Chat is currently disabled.', 'bp_wisechat');
         }
     }
 
