@@ -1,4 +1,4 @@
-# BP-Wise-Chat
+# BP-WiseChat
 Wordpress Plugin integrating [Wise Chat](https://wordpress.org/plugins/wise-chat) into Buddpress Groups
 
 # Installation
